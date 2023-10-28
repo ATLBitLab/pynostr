@@ -34,6 +34,7 @@ class EventKind(IntEnum):
     PROFILE_BADGES = 30008
     BADGE_DEFINITION = 30009
     LONG_FORM_CONTENT = 30023
+    BOT_CHANNEL_INVITE = 21021
 
 
 @dataclass
