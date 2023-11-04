@@ -229,8 +229,9 @@ dm_event = dm.to_event()
 dm_event.sign(private_key.hex())
 ```
 
-**Decrypt DMs**
-Note: This code assumes you first subscribed to relays and filtered for events of kind 4 where the author is your pubkey.
+#### **Decrypt DMs**
+
+Note: Code assumes you first subscribed to relays and filtered for events of kind 4 where the author is your pubkey.
 ```python
 # Initial DM
 from pynostr.encrypted_dm import EncryptedDirectMessage
